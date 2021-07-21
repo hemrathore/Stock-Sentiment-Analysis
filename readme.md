@@ -37,4 +37,4 @@ Parsed the data got the polarity score and add a column containing the compound 
 
 Then using matplotlib to create a plot for analysing the trend.
 
-Symbols are just a shorthand way of describing a company's stock.
+Ticker symbols are just a shorthand way of describing a company's stock.
