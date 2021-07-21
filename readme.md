@@ -1,4 +1,4 @@
-Using Finviz.com for stock headlines
+Using Finviz.com for stock headlines.
 Using beautifulsoup to parse the HTML code and get relevant stuff
 Create virtual environment with -> virtualenv env
 Activate environment env/Scripts/activate
@@ -9,8 +9,7 @@ can view html code by view page source can seee a table holds all data with id =
 so will create a dictionary news_tables
 
 
-
-test code for singlew iteration and understanding:
+Test code for single iteration and understanding:
 enumerate function gives index or objectnof any list or list item (Enumerate() method adds a counter to an iterable and returns it in a form of enumerate object.)
 findall() Return all non-overlapping matches of pattern in string, as a list of strings. The string is scanned left-to-right, and matches are returned in the order found.
 
@@ -22,14 +21,14 @@ for index, row in enumerate(amzn_rows):
     timestamp = row.td.text
     print(timestamp + " " + title)
 
-Using NLTK module
 
-compound ranges from -1 to +1 gives cumulative effect considering postive, negative and neutral part
+Using NLTK module
+(compound score ranges from -1 to +1 gives cumulative effect considering postive, negative and neutral part)
 
 pip install nltk
 go to python console : import nltk , nltk.download() then download vader_lexicon package either by pop up or by nltk.download('vader_lexicon)
 
-using pandas pandas, a software library written for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
+Using pandas, a software library written for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
 
 using a lambda function (A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.)
 
