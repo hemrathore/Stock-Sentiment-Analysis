@@ -1,7 +1,7 @@
 Using Finviz.com for stock headlines
 Using beautifulsoup to parse the HTML code and get relevant stuff
 Create virtual environment with -> virtualenv env
-Activate environment env/Scripte/activate
+Activate environment env/Scripts/activate
 Create main.py
 Need request and beutifulsoup module.
 import urlopen, Request i used to open thet url and request the data
