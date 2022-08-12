@@ -4,7 +4,7 @@ Create virtual environment with -> virtualenv env
 Activate environment env/Scripts/activate
 Create main.py
 Need request and beutifulsoup module.
-import urlopen, Request i used to open thet url and request the data
+import urlopen, Request i used to open that url and request the data
 can view html code by view page source can seee a table holds all data with id = news-table
 so will create a dictionary news_tables
 
